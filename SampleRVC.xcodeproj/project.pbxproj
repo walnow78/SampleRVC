@@ -8,20 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		336F069F1EFAAB6D004C3596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F069E1EFAAB6D004C3596 /* AppDelegate.swift */; };
-		336F06A11EFAAB6D004C3596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F06A01EFAAB6D004C3596 /* ViewController.swift */; };
 		336F06A41EFAAB6D004C3596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336F06A21EFAAB6D004C3596 /* Main.storyboard */; };
 		336F06A61EFAAB6D004C3596 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 336F06A51EFAAB6D004C3596 /* Assets.xcassets */; };
 		336F06A91EFAAB6D004C3596 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 336F06A71EFAAB6D004C3596 /* LaunchScreen.storyboard */; };
+		336F06B31EFAAC5E004C3596 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336F06B21EFAAC5E004C3596 /* SWRevealViewController.m */; };
+		336F06B51EFAAD3E004C3596 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F06B41EFAAD3E004C3596 /* MenuViewController.swift */; };
+		336F06B71EFAAF65004C3596 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F06B61EFAAF65004C3596 /* ViewController1.swift */; };
+		336F06B91EFAAF6E004C3596 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F06B81EFAAF6E004C3596 /* ViewController2.swift */; };
+		336F06BB1EFAAF78004C3596 /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F06BA1EFAAF78004C3596 /* ViewController3.swift */; };
+		336F06BD1EFAB15E004C3596 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F06BC1EFAB15E004C3596 /* MenuCell.swift */; };
+		336F06BF1EFAC105004C3596 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336F06BE1EFAC105004C3596 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		336F069B1EFAAB6D004C3596 /* SampleRVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleRVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		336F069E1EFAAB6D004C3596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		336F06A01EFAAB6D004C3596 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		336F06A31EFAAB6D004C3596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		336F06A51EFAAB6D004C3596 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		336F06A81EFAAB6D004C3596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		336F06AA1EFAAB6D004C3596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		336F06B01EFAAC5D004C3596 /* SampleRVC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SampleRVC-Bridging-Header.h"; sourceTree = "<group>"; };
+		336F06B11EFAAC5E004C3596 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		336F06B21EFAAC5E004C3596 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		336F06B41EFAAD3E004C3596 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		336F06B61EFAAF65004C3596 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		336F06B81EFAAF6E004C3596 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		336F06BA1EFAAF78004C3596 /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		336F06BC1EFAB15E004C3596 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		336F06BE1EFAC105004C3596 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		33315DB41EFAC5F600A2D714 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				336F06B41EFAAD3E004C3596 /* MenuViewController.swift */,
+				336F06BC1EFAB15E004C3596 /* MenuCell.swift */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		33315DB51EFAC62000A2D714 /* SWRevealVC */ = {
+			isa = PBXGroup;
+			children = (
+				336F06B01EFAAC5D004C3596 /* SampleRVC-Bridging-Header.h */,
+				336F06B11EFAAC5E004C3596 /* SWRevealViewController.h */,
+				336F06B21EFAAC5E004C3596 /* SWRevealViewController.m */,
+			);
+			name = SWRevealVC;
+			sourceTree = "<group>";
+		};
+		33315DB61EFAC63B00A2D714 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				336F06BE1EFAC105004C3596 /* BaseViewController.swift */,
+				336F06B61EFAAF65004C3596 /* ViewController1.swift */,
+				336F06B81EFAAF6E004C3596 /* ViewController2.swift */,
+				336F06BA1EFAAF78004C3596 /* ViewController3.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		336F06921EFAAB6D004C3596 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +98,14 @@
 		336F069D1EFAAB6D004C3596 /* SampleRVC */ = {
 			isa = PBXGroup;
 			children = (
+				33315DB51EFAC62000A2D714 /* SWRevealVC */,
 				336F069E1EFAAB6D004C3596 /* AppDelegate.swift */,
-				336F06A01EFAAB6D004C3596 /* ViewController.swift */,
 				336F06A21EFAAB6D004C3596 /* Main.storyboard */,
 				336F06A51EFAAB6D004C3596 /* Assets.xcassets */,
 				336F06A71EFAAB6D004C3596 /* LaunchScreen.storyboard */,
 				336F06AA1EFAAB6D004C3596 /* Info.plist */,
+				33315DB61EFAC63B00A2D714 /* Controller */,
+				33315DB41EFAC5F600A2D714 /* Menu */,
 			);
 			path = SampleRVC;
 			sourceTree = "<group>";
@@ -97,6 +143,7 @@
 					336F069A1EFAAB6D004C3596 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = CR9563PKSN;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				336F06A11EFAAB6D004C3596 /* ViewController.swift in Sources */,
+				336F06B71EFAAF65004C3596 /* ViewController1.swift in Sources */,
 				336F069F1EFAAB6D004C3596 /* AppDelegate.swift in Sources */,
+				336F06B31EFAAC5E004C3596 /* SWRevealViewController.m in Sources */,
+				336F06B51EFAAD3E004C3596 /* MenuViewController.swift in Sources */,
+				336F06BB1EFAAF78004C3596 /* ViewController3.swift in Sources */,
+				336F06BF1EFAC105004C3596 /* BaseViewController.swift in Sources */,
+				336F06BD1EFAB15E004C3596 /* MenuCell.swift in Sources */,
+				336F06B91EFAAF6E004C3596 /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,11 +316,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CR9563PKSN;
 				INFOPLIST_FILE = SampleRVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.telekom.it.SampleRVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleRVC/SampleRVC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,11 +332,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = CR9563PKSN;
 				INFOPLIST_FILE = SampleRVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = de.telekom.it.SampleRVC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SampleRVC/SampleRVC-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +362,7 @@
 				336F06AF1EFAAB6D004C3596 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
