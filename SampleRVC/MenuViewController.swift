@@ -12,6 +12,7 @@ class MenuViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     let menuOptions = ["Option 1", "Option 2", "Option 3"]
+
 }
 
 extension MenuViewController: UITableViewDataSource {
@@ -25,6 +26,18 @@ extension MenuViewController: UITableViewDataSource {
         cell.titleLabel.text = menuOptions[indexPath.row]
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        
+        let footer = FooterMenu(frame: CGRect(x: 0, y: 0, width: tableView.frame.width, height: 200))
+        footer.delegate = self
+
+        return footer
+    }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 200
     }
 }
 
@@ -47,6 +60,11 @@ extension MenuViewController: UITableViewDelegate {
         
         let nc = UINavigationController.init(rootViewController:vc!)
         revealViewController.pushFrontViewController(nc, animated: true)
-        
+    }
+}
+
+extension MenuViewController: FooterMenuDelegate {
+    func buttonTapped(arg: String) {
+        print(arg)
     }
 }

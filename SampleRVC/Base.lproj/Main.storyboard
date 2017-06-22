@@ -75,7 +75,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tXr-9Q-8Yk">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="467"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="menuCellId" id="g7W-RP-sXx" customClass="MenuCell" customModule="SampleRVC" customModuleProvider="target">
@@ -113,7 +113,7 @@
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="tXr-9Q-8Yk" secondAttribute="trailing" id="9UZ-2a-mP6"/>
                             <constraint firstItem="tXr-9Q-8Yk" firstAttribute="top" secondItem="Cj5-x2-tit" secondAttribute="top" id="OZU-b2-hlD"/>
-                            <constraint firstItem="mvn-4h-OoA" firstAttribute="top" secondItem="tXr-9Q-8Yk" secondAttribute="bottom" id="PJt-nR-70r"/>
+                            <constraint firstItem="mvn-4h-OoA" firstAttribute="top" secondItem="tXr-9Q-8Yk" secondAttribute="bottom" constant="200" id="PJt-nR-70r"/>
                             <constraint firstItem="tXr-9Q-8Yk" firstAttribute="leading" secondItem="Cj5-x2-tit" secondAttribute="leading" id="q4S-Td-zhw"/>
                         </constraints>
                     </view>
